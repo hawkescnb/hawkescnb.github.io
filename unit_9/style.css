@@ -1,0 +1,243 @@
+style.css
+
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+@import url(https://fonts.googleapis.com/css?family=Belgrano);
+nav  a{
+	background-color: rgba(0,0,0,.5);
+	font-family: 'Audiowide' monospace;
+}
+nav a:hover
+   {background-color: white;}
+nav{
+	text-align: left;
+	word-spacing: 50px;	
+	background-color: #DCDCDC;
+	padding: 10px;
+	font-family: 'Audiowide', monospace;
+	font-size: 1.5em;
+	font-weight: 600;
+	clear: both;
+}
+body {
+	background-color: rgba(0,0,0,0);
+}
+p{
+	font-family: 'Belgrano', serif;
+	font-size: 1em;
+    text-align: center; 
+    line-height: 20px;   
+    margin: 0,
+}
+h2{ 
+	font-family: 'Audiowide', monospace;
+	font-size: 1em;
+    text-align: center; 
+    line-height: 20px;   
+    margin: 0,
+}
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+.extend {
+	text-align: center;
+	font-family: 'Audiowide', monospace;
+	font-size: 1.5em;
+	font-weight: 800;
+	word-spacing: 150px;
+	background-color: #696969;
+	padding: 10px;
+	margin: 0;
+	color: blue;
+
+}
+.renovate {
+	text-align: center;
+	font-family: 'Audiowide', monospace;
+	font-size: 1.5em;
+	font-weight: 800;
+	word-spacing: 150px;
+	background-color: #778899;
+	padding: 10px;
+	margin: 0;
+	color: blue;
+}
+.decks {
+	text-align: center;
+	font-family: 'Audiowide', monospace;
+	font-size: 1.5em;
+	font-weight: 800;
+	word-spacing: 150px;
+	background-color: #4682B4;
+	padding: 10px;
+	margin: 0;
+	color: blue;
+	}
+#blurb {
+	font-family: 'Belgrano', serif;
+	font-size: 1em;
+    text-align: center;
+    padding: 10px; 
+    background-color: #DCDCDC; 
+    margin: 0;
+
+}
+#two_columm { 
+    background-color: #DCDCDC;
+    border: 1px black solid;
+    padding: 10px;
+    margin: none;
+}
+#left{ 
+    background-color: #778899;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 47%; ;
+    text-align: center  
+}
+#right{
+    background-color: #778899;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 47%;
+    text-align: right;
+}
+#images_columm { 
+    padding: 5px;
+    margin: 5px;
+}
+#galleryright{
+	float: right;
+    width: 47%;
+    padding: 5px;
+    margin: 5px; 
+}
+#galleryleft{
+	float: left;
+    width: 47%; 
+    padding: 5px;
+    margin: 5px;
+}
+#services{
+	font-family: 'Belgrano', serif;
+	font-size: 1.5em;
+	font-weight: 600;
+    text-align: left;
+    padding: 5px; 
+    float: right;
+    width: 47%;
+}
+#slogan {
+	font-style: italics;
+	text-align: center;
+	font-family: 'Audiowide', monospace;
+	font-size: 1em;
+	font-weight: 800;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+footer{
+	font-family: 'Belgrano', serif;
+	font-size: 1em;
+    text-align: center;
+    background-color: #DCDCDC;
+    padding: 20px;
+    line-height: 20px;
+    margin: 0px;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.extend, 
+.renovate,
+.decks {
+	width: 30%;
+	border: 1px solid black;
+	display: inline-block;
+	margin: 0 auto
+}
+.content{
+	background-color: #4682B4;
+	padding: 2px;
+	clear: both;
+	text-align: centre;
+	word-spacing: 5px;	
+	font-family: 'Audiowide', monospace;
+	font-size: 20px;
+	font-weight: 600;
+	clear: both;
+}
+@media only screen and (max-width: 1398px) {
+#left{ 
+    background-color: #778899;
+    border: 1px black solid;
+    padding: 20px;
+    float: center;
+    width: 95%; 
+    text-align: center  
+}
+#right{
+    background-color: #778899;
+    border: 1px black solid;
+    padding: 20px;
+    float: center;
+    width: 95%;
+    text-align: center;
+	
+}
+@media only screen and (max-width: 738px) {
+.extend, 
+.renovate,
+.decks {
+	width: 99%;
+	border: 1px solid black;
+	display: inline-block;
+	margin: 0 auto
+}
+@media only screen and (max-width: 959px) {
+img.displayed {
+	display: block;
+    width: 100%;
+}
+@media only screen and (max-width: 673px){
+nav a { 
+	width: 99.9%;
+	text-align: center;
+	display: block;
+	border: 1px solid #DCDCDC;
+    background-color: #4682B4;
+}
+@media only screen and (max-width: 738px) {
+	#galleryleft{
+	float: none;
+    width: 99%; 
+}
+@media only screen and (max-width: 738px) {
+	#galleryright {
+	float: none;
+    width: 99%; 
+}
+	
+
+
+
+
+
+
