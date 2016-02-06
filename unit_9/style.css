@@ -5,9 +5,10 @@ style.css
 nav  a{
 	background-color: rgba(0,0,0,.5);
 	font-family: 'Audiowide' monospace;
+	text-decoration: none;
 }
 nav a:hover
-   {background-color: white;}
+   {background-color: #000000;}
 nav{
 	text-align: left;
 	word-spacing: 50px;	
@@ -26,14 +27,14 @@ p{
 	font-size: 1em;
     text-align: center; 
     line-height: 20px;   
-    margin: 0,
+    margin: 0;
 }
 h2{ 
 	font-family: 'Audiowide', monospace;
 	font-size: 1em;
     text-align: center; 
     line-height: 20px;   
-    margin: 0,
+    margin: 0;
 }
 img.displayed {
     display: block;
@@ -132,11 +133,12 @@ img.displayed {
     width: 47%;
 }
 #slogan {
-	font-style: italics;
+	font-style: italic;
 	text-align: center;
 	font-family: 'Audiowide', monospace;
 	font-size: 1em;
 	font-weight: 800;
+	padding: 5px;
 }
 .clearfix:after {
     visibility: hidden;
@@ -155,7 +157,6 @@ footer{
     line-height: 20px;
     margin: 0px;
 }
-
 .container {
 	width: 100%;
 	position: relative;
@@ -164,20 +165,19 @@ footer{
 	margin: 10px auto;
 	text-align: center;
 }
-
 .extend, 
 .renovate,
 .decks {
 	width: 30%;
 	border: 1px solid black;
 	display: inline-block;
-	margin: 0 auto
+	margin: 0 auto;
 }
 .content{
 	background-color: #4682B4;
 	padding: 2px;
 	clear: both;
-	text-align: centre;
+	text-align: center;
 	word-spacing: 5px;	
 	font-family: 'Audiowide', monospace;
 	font-size: 20px;
@@ -191,7 +191,8 @@ footer{
     padding: 20px;
     float: center;
     width: 95%; 
-    text-align: center  
+    text-align: center; 
+}
 }
 #right{
     background-color: #778899;
@@ -200,7 +201,6 @@ footer{
     float: center;
     width: 95%;
     text-align: center;
-	
 }
 @media only screen and (max-width: 738px) {
 .extend, 
@@ -209,12 +209,15 @@ footer{
 	width: 99%;
 	border: 1px solid black;
 	display: inline-block;
-	margin: 0 auto
+	margin: 0 auto;
+	padding: 10px;
+}
 }
 @media only screen and (max-width: 959px) {
 img.displayed {
 	display: block;
     width: 100%;
+}	
 }
 @media only screen and (max-width: 673px){
 nav a { 
@@ -223,18 +226,27 @@ nav a {
 	display: block;
 	border: 1px solid #DCDCDC;
     background-color: #4682B4;
+    padding: 5px;
+}
 }
 @media only screen and (max-width: 738px) {
 	#galleryleft{
 	float: none;
     width: 99%; 
 }
+}
 @media only screen and (max-width: 738px) {
 	#galleryright {
 	float: none;
     width: 99%; 
 }
-	
+}
+@media only screen and (max-width: 1398px) {
+#services{ 
+    float: none:
+    margin: auto; 
+    width: 75%;
+}	
 
 
 
